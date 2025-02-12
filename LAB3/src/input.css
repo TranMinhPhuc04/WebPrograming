@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.tab-button.active {
+  border-bottom: 2px solid #2563eb; /* Màu xanh giống hover */
+  color: #2563eb;
+}
+
+#userList {
+  min-height: 250px; /* Đảm bảo danh sách không bị quá ngắn */
+  max-height: 400px; /* Tránh danh sách quá dài */
+  overflow-y: auto; /* Tạo thanh cuộn nếu danh sách quá dài */
+}
