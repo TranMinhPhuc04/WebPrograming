@@ -25,7 +25,7 @@ app.get("/register.html", (req, res) => {
 app.post("/submit-form", (req, res) => {
   const { username, email, password } = req.body;
 
-  console.log("📩 Thông tin người dùng nhập:");
+  console.log("Thông tin người dùng nhập:");
   console.log(`Tên: ${username}`);
   console.log(`Email: ${email}`);
   console.log(`Mật khẩu: ${password}`);
@@ -44,5 +44,5 @@ app.use((req, res) => {
 
 // Khởi động server
 app.listen(PORT, () => {
-  console.log(`🚀 Server đang chạy tại: http://localhost:${PORT}`);
+  console.log(`Server đang chạy tại: http://localhost:${PORT}`);
 });
