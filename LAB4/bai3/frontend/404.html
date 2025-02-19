@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - Page Not Found</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="text-center">
+      <!-- Animation -->
+      <div class="relative">
+        <h1
+          class="text-9xl font-extrabold text-gray-400 opacity-30 animate-pulse absolute top-0 left-0 right-0 mx-auto"
+        >
+          404
+        </h1>
+        <h2 class="text-6xl font-bold text-gray-800 relative">Oops!</h2>
+      </div>
+
+      <p class="text-gray-600 text-lg mt-4">
+        Trang bạn đang tìm kiếm không tồn tại.
+      </p>
+
+      <!-- Lottie Animation -->
+      <div class="flex justify-center my-6">
+        <lottie-player
+          src="https://assets3.lottiefiles.com/packages/lf20_suhe7qtm.json"
+          background="transparent"
+          speed="1"
+          style="width: 300px; height: 300px"
+          loop
+          autoplay
+        >
+        </lottie-player>
+      </div>
+
+      <!-- Back to Home -->
+      <a
+        href="/product.html"
+        class="px-6 py-3 bg-blue-600 text-white rounded-lg text-lg hover:bg-blue-700 transition duration-300 shadow-md"
+      >
+        Quay về Trang Chủ
+      </a>
+    </div>
+
+    <!-- Lottie Animation Script -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>

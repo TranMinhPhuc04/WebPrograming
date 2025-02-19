@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Sản Phẩm</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <!-- Navbar -->
+    <nav class="bg-blue-600 p-4 text-white shadow-md">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Product Page</h1>
+        <a
+          href="/register.html"
+          class="bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-gray-200 transition"
+        >
+          Đăng Ký
+        </a>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container mx-auto mt-10 p-6 bg-white shadow-lg rounded-lg">
+      <h2 class="text-3xl font-semibold text-center mb-6">
+        Danh Sách Sản Phẩm
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Product 1 -->
+        <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+          <img
+            src="https://via.placeholder.com/200"
+            alt="Product 1"
+            class="w-full rounded-lg"
+          />
+          <h3 class="text-xl font-semibold mt-4">Sản phẩm A</h3>
+          <p class="text-gray-700">Mô tả sản phẩm A.</p>
+          <p class="text-blue-600 font-bold mt-2">Giá: 500,000₫</p>
+          <button
+            class="bg-blue-600 text-white px-4 py-2 mt-4 rounded-lg hover:bg-blue-700 transition"
+          >
+            Mua ngay
+          </button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+          <img
+            src="https://via.placeholder.com/200"
+            alt="Product 2"
+            class="w-full rounded-lg"
+          />
+          <h3 class="text-xl font-semibold mt-4">Sản phẩm B</h3>
+          <p class="text-gray-700">Mô tả sản phẩm B.</p>
+          <p class="text-blue-600 font-bold mt-2">Giá: 750,000₫</p>
+          <button
+            class="bg-blue-600 text-white px-4 py-2 mt-4 rounded-lg hover:bg-blue-700 transition"
+          >
+            Mua ngay
+          </button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+          <img
+            src="https://via.placeholder.com/200"
+            alt="Product 3"
+            class="w-full rounded-lg"
+          />
+          <h3 class="text-xl font-semibold mt-4">Sản phẩm C</h3>
+          <p class="text-gray-700">Mô tả sản phẩm C.</p>
+          <p class="text-blue-600 font-bold mt-2">Giá: 1,000,000₫</p>
+          <button
+            class="bg-blue-600 text-white px-4 py-2 mt-4 rounded-lg hover:bg-blue-700 transition"
+          >
+            Mua ngay
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
